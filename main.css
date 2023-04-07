@@ -1,0 +1,103 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgba(182, 163, 163, 0.5);
+    height: 8vh;
+}
+
+ul {
+    padding: 0%;
+}
+
+img {
+    width: 15rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-image: url('./assets/images/espacio.gif');
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.container-moon {
+    align-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 5fr;
+    width: 60rem;
+}
+
+.container-text-moon {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.container-planets {
+    position: absolute;
+    width: 35rem;
+}
+
+.color-white {
+    color:white;
+}
+
+.img-luna {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 100%;
+    position: relative;
+}
+
+.img-luna img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.list-style-none {
+    list-style-type: none;
+}
+
+.text-moon-padding {
+    padding-right: 8rem;
+}
+
+.nav-pedding {
+    padding: 1.5rem 4rem;
+}
+
+.menu-container {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.text-decoration {
+    text-decoration: none;
+}
+
+.last-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.planets {
+    display: none;
+}
+
+
+
+/* font-family: Barlow Condensed;
+font-size: 28px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 4.724999904632568px;
+text-align: left; */
